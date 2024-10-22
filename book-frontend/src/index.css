@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.footer {
+  background-color: #49314f; /* Example background color */
+  color: white;
+  padding: 20px 0;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .columns {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer .column {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+}
+
+.footer .trustpilot-widget {
+  margin-bottom: 20px;
+}
+
+.footer .climate-neutral-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer .is-block {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer .is-size-l {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.footer img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer .has-text-white {
+  color: white;
+}
+
+.footer .mx-7 {
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+}
+
+.footer .mt-4 {
+  margin-top: 1rem;
+}
+
+.footer .mt-6 {
+  margin-top: 1.5rem;
+}
+
+.footer .is-hidden-mobile {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .footer .is-hidden-mobile {
+    display: inline;
+  }
+}
