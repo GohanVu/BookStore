@@ -62,7 +62,7 @@ const Footer = () => (
               <div className="flex justify-center">
                 <p className="flex space-x-4">
                   <a href="https://twitter.com/bookshop_org">
-                    <img title="X Logo" width="35" height="35" alt="Bookshop.org X formerly Twitter"
+                    <img title="X Logo" width="40" height="40" alt="Bookshop.org X formerly Twitter"
                          src="https://rails-assets-us.bookshop.org/assets/icon-x-06f2c6421bcff972e6d6da324504104da14c947623f367be696d63f47a0ea451.svg"/>
                   </a>
                   <a href="https://www.facebook.com/bookshop.org/">
@@ -74,11 +74,11 @@ const Footer = () => (
                          src="https://rails-assets-us.bookshop.org/assets/icon-instagram-015ea6b8500fb243a606a5117772f949603f9d035d5ab677b7d24a6f379e3cbe.svg"/>
                   </a>
                   <a href="https://www.threads.net/@bookshop_org">
-                    <img title="Threads Logo" width="48" height="48" alt="Bookshop.org Threads"
+                    <img title="Threads Logo" width="44" height="44" alt="Bookshop.org Threads"
                          src="https://rails-assets-us.bookshop.org/assets/icon-threads-eaa5b4d30197b051e856f3476f6280ad90f0a34ec53cc090da4824a7f34713c8.svg"/>
                   </a>
                   <a href="https://www.tiktok.com/@bookshop_org">
-                    <img title="TikTok Logo" width="40" height="40" alt="Bookshop.org TikTok"
+                    <img title="TikTok Logo" width="44" height="44" alt="Bookshop.org TikTok"
                          src="https://rails-assets-us.bookshop.org/assets/icon-tiktok-f258edd439a6a0ff0def1987359fab63825f9204e5cc105aad9ec2f4e731340a.svg"/>
                   </a>
                 </p>
