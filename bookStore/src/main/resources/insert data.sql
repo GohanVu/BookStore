@@ -63,6 +63,7 @@ INSERT INTO book (id, author, date_added, price, publication_year, title, genre_
 INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (19, 'James Joyce', '2023-10-19', 24.99, 1922, 'Ulysses', 18);
 INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (20, 'Virginia Woolf', '2023-10-20', 15.99, 1927, 'To the Lighthouse', 19);
 
+
 INSERT INTO orders (id, order_date, customer_id) VALUES (1, '2023-10-05', 1);
 INSERT INTO orders (id, order_date, customer_id) VALUES (2, '2023-10-06', 2);
 INSERT INTO orders (id, order_date, customer_id) VALUES (3, '2023-10-07', 3);
@@ -104,3 +105,55 @@ INSERT INTO order_item (id, quantity, book_id, order_id) VALUES (17, 1, 17, 17);
 INSERT INTO order_item (id, quantity, book_id, order_id) VALUES (18, 4, 18, 18);
 INSERT INTO order_item (id, quantity, book_id, order_id) VALUES (19, 2, 19, 19);
 INSERT INTO order_item (id, quantity, book_id, order_id) VALUES (20, 1, 20, 20);
+
+
+# -----------------------
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (22, 'Aldous Huxley', '2023-10-22',14.99,1932, 'Brave New World',2);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (23, 'George R.R. Martin', '2023-10-23',29.99,1996, 'A Game of Thrones',1);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (24, 'J.D. Salinger', '2023-10-24',10.99,1951, 'The Catcher in the Rye',4);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (25, 'H.G. Wells', '2023-10-25',11.99,1898, 'The War of the Worlds',6);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (26, 'Ernest Hemingway', '2023-10-26',12.99,1926, 'The Sun Also Rises',4);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (27, 'Jules Verne', '2023-10-27',9.99,1870, 'Twenty Thousand Leagues Under the Sea',6);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (28, 'Herman Hesse', '2023-10-28',14.99,1922, 'Siddhartha',17);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (29, 'Friedrich Nietzsche', '2023-10-29',19.99,1883, 'Thus Spoke Zarathustra',20);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (30, 'Mary Shelley', '2023-10-30',10.49,1818, 'Frankenstein',7);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (31, 'H.P. Lovecraft', '2023-10-31',13.49,1928, 'The Call of Cthulhu',16);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (32, 'Alexandre Dumas', '2023-11-01',12.49,1844, 'The Three Musketeers',5);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (33, 'Oscar Wilde', '2023-11-02',11.99,1890, 'The Picture of Dorian Gray',3);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (34, 'Markus Zusak', '2023-11-03',13.99,2005, 'The Book Thief',4);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (35, 'Antoine de Saint-Exupéry', '2023-11-04',9.99,1943, 'The Little Prince',19);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (36, 'John Steinbeck', '2023-11-05',11.99,1939, 'The Grapes of Wrath',20);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (37, 'Gaston Leroux', '2023-11-06',10.99,1910, 'The Phantom of the Opera',19);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (38, 'Kurt Vonnegut', '2023-11-07',16.99,1969, 'Slaughterhouse-Five',17);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (39, 'Arthur Conan Doyle', '2023-11-08',15.49,1892, 'The Adventures of Sherlock Holmes',5);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (40, 'Joseph Conrad', '2023-11-09',10.99,1902, 'Heart of Darkness',20);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (41, 'Bram Stoker', '2023-11-10',12.99,1897, 'Dracula',7);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (42, 'Marcus Aurelius', '2023-11-11',8.99,180, 'Meditations',20);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (43, 'Emily Brontë', '2023-11-12',10.49,1847, 'Wuthering Heights',3);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (44, 'T.S. Eliot', '2023-11-13',12.49,1922, 'The Waste Land',17);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (45, 'J.M. Barrie', '2023-11-14',9.99,1911, 'Peter Pan',19);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (46, 'Thomas Hardy', '2023-11-15',11.99,1874, 'Far from the Madding Crowd',4);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (47, 'Günter Grass', '2023-11-16',15.99,1959, 'The Tin Drum',18);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (48, 'Umberto Eco', '2023-11-17',19.99,1980, 'The Name of the Rose',3);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (49, 'Virginia Woolf', '2023-11-18',16.99,1925, 'Mrs Dalloway',19);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (50, 'Robert Louis Stevenson', '2023-11-19',12.99,1883, 'Treasure Island',8);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (51, 'Joseph Heller', '2023-11-20',17.99,1961, 'Catch-22',17);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (52, 'Haruki Murakami', '2023-11-21',20.99,1987, 'Norwegian Wood',4);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (53, 'Gabriel García Márquez', '2023-11-22',18.99,1985, 'Love in the Time of Cholera',9);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (54, 'Chinua Achebe', '2023-11-23',13.99,1958, 'Things Fall Apart',2);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (55, 'Isabel Allende', '2023-11-24',14.99,1982, 'The House of the Spirits',9);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (56, 'E.M. Forster', '2023-11-25',9.99,1924, 'A Passage to India',12);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (57, 'Kazuo Ishiguro', '2023-11-26',15.49,1989, 'The Remains of the Day',6);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (58, 'C.S. Lewis', '2023-11-27',8.99,1950, 'The Lion, the Witch and the Wardrobe',19);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (59, 'John Milton', '2023-11-28',18.49,1667, 'Paradise Lost',13);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (60, 'Khaled Hosseini', '2023-11-29',20.99,2003, 'The Kite Runner',4);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (61, 'Margaret Atwood', '2023-11-30',19.99,1985, 'The Handmaid\'s Tale',16);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (62, 'Zora Neale Hurston', '2023-12-01',9.49,1937, 'Their Eyes Were Watching God',19);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (63, 'Paulo Coelho', '2023-12-02',16.99,1988, 'The Alchemist',17);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (64, 'Lewis Carroll', '2023-12-03',7.99,1865, 'Alice\'s Adventures in Wonderland',19);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (65, 'Stephen King', '2023-12-04',18.99,1977, 'The Shining',20);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (66, 'Virginia Woolf', '2023-12-05',15.99,1931, 'The Waves',19);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (67, 'Salman Rushdie', '2023-12-06',22.99,1988, 'The Satanic Verses',9);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (68, 'Jean-Paul Sartre', '2023-12-07',17.99,1944, 'No Exit',20);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (69, 'Sylvia Plath', '2023-12-08',14.99,1963, 'The Bell Jar',17);
+INSERT INTO book (id, author, date_added, price, publication_year, title, genre_id) VALUES (70, 'Henrik Ibsen', '2023-12-09',11.99,1879, 'A Doll\'s House',17);

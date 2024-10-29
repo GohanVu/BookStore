@@ -4,6 +4,8 @@ import com.gohanvu.bookstore.models.Book;
 import com.gohanvu.bookstore.repositories.IBookRepository;
 import com.gohanvu.bookstore.services.IBookService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -42,5 +44,15 @@ public class BookService implements IBookService {
     @Override
     public void deleteBook(Integer id) {
         bookRepository.deleteById(id);
+    }
+
+    @Override
+    public Page<Book> getBooksPage(Pageable pageable) {
+        return bookRepository.findAll(pageable);
+    }
+
+    @Override
+    public List<Book> findBookByTitleContainingIgnoreCase(String name) {
+        return bookRepository.findBookByTitleContainingIgnoreCase(name);
     }
 }
